@@ -12,7 +12,7 @@ export default function Title() {
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    padding: 20,
+    paddingVertical: 20,
     alignItems: "flex-start"
   },
   index: {

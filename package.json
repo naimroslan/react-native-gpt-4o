@@ -16,6 +16,8 @@
     "react-native": "0.74.1",
     "react-native-dotenv": "^3.4.11",
     "react-native-markdown-display": "^7.0.2",
+    "react-native-navigation-bar-color": "^2.0.2",
+    "react-native-system-navigation-bar": "^2.6.4",
     "react-native-uuid": "^2.0.2",
     "react-native-vector-icons": "^10.1.0"
   },

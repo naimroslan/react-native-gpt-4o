@@ -1,7 +1,7 @@
 import { Image, StyleSheet, Text, View, TouchableOpacity, TextInput } from "react-native";
 import { useState } from "react";
 
-import caretUp from "../assets/icons/caretUp.png"
+import caretUp from "../../assets/icons/caretUp.png"
 
 export default function Input({ handleResponse }: { handleResppmse: (text: string) => void }) {
   const [text, setText] = useState('');
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
   textInput: {
     flex: 1,
     paddingHorizontal: 20,
+    paddingVertical: 10,
     borderRadius: 30,
     backgroundColor: "#000",
     color: "#fff",

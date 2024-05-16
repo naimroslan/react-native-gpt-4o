@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native"
 import uuid from 'react-native-uuid';
-import { getCompletion } from "../utils/OpenAI";
+import { getCompletion } from "../../utils/OpenAI";
 import Markdown from "react-native-markdown-display";
 import Input from "./Input";
 
@@ -67,6 +67,8 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#000",
     borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#000',
     height: "85%"
   },
   messageContainer: {

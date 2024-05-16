@@ -1,25 +1,13 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
+import React, { useEffect } from 'react';
 import {
+  Platform,
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
-  Text,
-  useColorScheme,
-  View,
 } from 'react-native';
-
-import Title from './screens/Title';
-import Chats from './screens/Chats';
-import Input from './screens/Input';
+import Chats from './screens/Chats/Index';
+import Capture from './screens/Capture/Index';
 
 export default function App() {
 
@@ -29,8 +17,8 @@ export default function App() {
         barStyle={'dark-content'}
         backgroundColor={"#fff"}
       />
-      <Title />
       <Chats />
+      {/* <Capture /> */}
     </SafeAreaView>
   );
 }
