@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
   container: {
     top: -40,
     flexDirection: "row",
+    width: "90%"
   },
   textInput: {
     flex: 1,

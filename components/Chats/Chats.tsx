@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native"
+import { Dimensions, FlatList, ScrollView, StyleSheet, Text, View } from "react-native"
 import uuid from 'react-native-uuid';
 import { getCompletion } from "../../utils/OpenAI";
 import Markdown from "react-native-markdown-display";
@@ -69,7 +69,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 1,
     borderColor: '#000',
-    height: "85%"
+    height: "85%",
+    width: "90%"
   },
   messageContainer: {
     flexDirection: 'row',
