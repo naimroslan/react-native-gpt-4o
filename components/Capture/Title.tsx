@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from "react-native"
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Title() {
-  return (
+  return(
     <View style={styles.container}>
-      <Text style={styles.index}>01</Text>
-      <Text style={styles.text}>Chats</Text>
+      <Text style={styles.index}>02</Text>
+      <Text style={styles.text}>Capture</Text>
     </View>
   )
 }
@@ -28,3 +28,4 @@ const styles = StyleSheet.create({
     marginLeft: 4
   }
 })
+

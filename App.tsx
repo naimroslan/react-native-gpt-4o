@@ -8,9 +8,10 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
+import SwiperFlatList from 'react-native-swiper-flatlist';
+
 import Chats from './screens/Chats/Index';
 import Capture from './screens/Capture/Index';
-import SwiperFlatList from 'react-native-swiper-flatlist';
 
 export default function App() {
 
@@ -38,10 +39,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingHorizontal: 20,
   },
   child: {
     width,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    padding: 20
   }
 });

@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#000',
     height: "85%",
-    width: "90%"
+    width: "100%"
   },
   messageContainer: {
     flexDirection: 'row',
